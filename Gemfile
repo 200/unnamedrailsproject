@@ -28,6 +28,10 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
+# Style checker
+gem 'rubocop'
+gem 'ragnarson-stylecheck', '~> 0.8.2'
+
 #Templates
 gem 'slim-rails'
 
