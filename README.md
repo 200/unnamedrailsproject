@@ -1,6 +1,6 @@
 # Unnamed-Rails-Project
 
-- This project is about creating a token that people can use to have impact on websites such as blogs.
+- Centralized token-like credits issuance platform for marketing purpose. Give tokens to your audience. Pay them for sharing, comments and other kind of work for you. Use token to build stronger community. Let yout people decide about your work and your content.
 
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
@@ -11,9 +11,12 @@
 
 
 ### Technologies
-- Ruby On Rails
-- PostgreSQL
+- Ruby On Rails 6.0.2
+- Ruby 2.6.0
+- PostgreSQL 9.3
 - Heroku
+- Slim-template-rails
+- Travis-CI
 
 ## Team
 
