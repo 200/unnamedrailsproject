@@ -1,24 +1,25 @@
-# README
+# Unnamed-Rails-Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- Centralized token-like credits issuance platform for marketing purpose. Give tokens to your audience. Pay them for sharing, comments and other kind of work for you. Use token to build stronger community. Let yout people decide about your work and your content.
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-Things you may want to cover:
 
-* Ruby version
+### Clone
 
-* System dependencies
+- Clone this repo to your local machine using `https://github.com/PiotrMisiurek/unnamedrailsproject`
 
-* Configuration
 
-* Database creation
+### Technologies
+- Ruby 2.6.0
+- Ruby On Rails 6.0.2
+- PostgreSQL 12.1
+- Heroku
+- Rspec
+- Slim-template-rails
+- Travis-CI
 
-* Database initialization
+## Team
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+| <a href="https://github.com/damians1982" target="_blank">**Damian Stasiak**</a> | <a href="https://github.com/PiotrMisiurek" target="_blank">**Piotr Misiurek**</a> | <a href="https://github.com/nmacuk" target="_blank">**Nikodem Macuk**</a> |
+| :---: |:---:| :---:|
+| [![Damian Stasiak](https://avatars2.githubusercontent.com/u/35781121?s=200&v=3)](https://github.com/damians1982)    | [![Piotr Misiurek](https://avatars2.githubusercontent.com/u/140750?s=200&v=3)](https://github.com/PiotrMisiurek) | [![Nikodem Macuk](https://avatars1.githubusercontent.com/u/32022299?s=200&v=3)](https://github.com/nmacuk)  |
