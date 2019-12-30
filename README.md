@@ -15,6 +15,7 @@
 - Ruby 2.6.0
 - PostgreSQL 9.3
 - Heroku
+- Rspec
 - Slim-template-rails
 - Travis-CI
 
