@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.5'
+ruby '2.6.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.2'
@@ -29,7 +29,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 # Style checker
-gem 'rubocop'
+gem 'rubocop', require: false
 gem 'ragnarson-stylecheck', '~> 0.8.2'
 
 
@@ -42,7 +42,7 @@ gem 'slim-rails'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'rspec-rails', '3.9.0'
+  gem 'rspec-rails', '~> 4.0.0.beta3'
 end
 
 group :development do

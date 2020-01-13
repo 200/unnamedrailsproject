@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+--- 
 addons: 
   postgresql: "12.1"
 language: ruby
@@ -6,14 +6,9 @@ before_script:
   - psql -c 'create database db_test;' -U postgres
 rvm: 
   - "2.6.0"
-script: "— bundle install — jobs=3 — retry=3 — bundle exec rake db:create — bundle exec rake db:migrate — bundle exec rspec"
+script:
+  - bundle install
+  - bundle exec rails db:create
+  - bundle exec rails db:migrate
 services: 
   - postgresql
-=======
-language: ruby
-rvm:
-- 2.0.0
-- 1.9.3
-- jruby-19mode
-- rbx-2
->>>>>>> 3164d7b... Added entry for travis-ci
