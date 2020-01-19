@@ -33,7 +33,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 # Style checker
 gem 'ragnarson-stylecheck', '~> 0.8.2'
 gem 'rubocop', require: false
-
+gem 'rubocop-rails_config'
 # CI
 gem 'travis'
 

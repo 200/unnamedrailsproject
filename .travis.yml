@@ -8,7 +8,6 @@ script:
   - bundle exec rails db:create
   - bundle exec rails db:migrate
   - bundle exec rake spec
-  - bundle exec rubocop
-  # - bundle exec rake style
+  - bundle exec rubocop -a
 services: 
   - postgresql
