@@ -9,5 +9,6 @@ script:
   - bundle exec rails db:migrate
   - bundle exec rake spec
   - bundle exec rubocop
+  - bundle exec rake style
 services: 
   - postgresql
