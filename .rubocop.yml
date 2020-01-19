@@ -7,6 +7,16 @@ Style/IfUnlessModifier:
 Style/ClassAndModuleChildren:
   Enabled: false
 
+Style/CommentedKeyword:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Metrics:
+  Enabled: false
+    
+
   inherit_gem:
   rubocop-rails_config:
     - config/rails.yml
