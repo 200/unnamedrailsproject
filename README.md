@@ -18,6 +18,8 @@
 - Slim-template-rails
 - Travis-CI
 
+
+
 ## Team
 
 | <a href="https://github.com/damians1982" target="_blank">**Damian Stasiak**</a> | <a href="https://github.com/PiotrMisiurek" target="_blank">**Piotr Misiurek**</a> | <a href="https://github.com/nmacuk" target="_blank">**Nikodem Macuk**</a> |
