@@ -32,8 +32,17 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'rubocop'
 gem 'ragnarson-stylecheck', '~> 0.8.2'
 
-#Templates
+# Templates
 gem 'slim-rails'
+
+# Active Admin
+gem 'activeadmin'
+
+# Plus integrations with:
+gem 'devise'
+gem 'cancancan'
+gem 'draper'
+gem 'pundit'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
