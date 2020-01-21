@@ -41,10 +41,22 @@ ActiveRecord::Schema.define(version: 2020_01_21_161127) do
     t.index ["reset_password_token"], name: "index_admin_users_on_reset_password_token", unique: true
   end
 
+  create_table "tokens", force: :cascade do |t|
+    t.string "name"
+    t.string "ticker"
+    t.integer "hard_cap"
+    t.integer "precision"
+    t.bigint "user_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["user_id"], name: "index_tokens_on_user_id"
+  end
+
   create_table "users", force: :cascade do |t|
     t.string "email"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "tokens", "users"
 end
