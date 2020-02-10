@@ -32,7 +32,10 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'rubocop'
 gem 'ragnarson-stylecheck', '~> 0.8.2'
 
-# Templates
+# CI
+gem 'travis'
+
+#Templates
 gem 'slim-rails'
 
 # Active Admin
