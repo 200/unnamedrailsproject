@@ -1,14 +1,13 @@
-# Travis configuration file
 language: ruby
 before_script:
   - psql -c 'create database db_test;' -U postgres
 rvm: 
-  - "2.6.0"
+  - "2.6.5"
 script:
   - bundle install
   - bundle exec rails db:create
   - bundle exec rails db:migrate
   - bundle exec rake spec
   - bundle exec rubocop
-  services: 
+services: 
   - postgresql

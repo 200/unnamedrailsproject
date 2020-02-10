@@ -1,22 +1,20 @@
-Metrics/LineLength:
+--- 
+Metrics: 
+  Enabled: false
+Metrics/LineLength: 
   Max: 200
-
-Style/IfUnlessModifier:
+Style/ClassAndModuleChildren: 
   Enabled: false
-
-Style/ClassAndModuleChildren:
+Style/CommentedKeyword: 
   Enabled: false
-
-Style/CommentedKeyword:
+Style/Documentation: 
   Enabled: false
-
-Style/Documentation:
+Style/IfUnlessModifier: 
   Enabled: false
-
-Metrics:
+Style/FrozenStringLiteralComment:
   Enabled: false
-
-
-inherit_gem:
-  rubocop-rails_config:
-  - config/rails.yml 
+Style/StringLiterals:
+  Enabled: false
+inherit_gem: 
+  rubocop-rails_config: 
+    - config/rails.yml
