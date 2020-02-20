@@ -9,12 +9,14 @@ Style/CommentedKeyword:
   Enabled: false
 Style/Documentation: 
   Enabled: false
+Style/FrozenStringLiteralComment: 
+  Enabled: false
 Style/IfUnlessModifier: 
   Enabled: false
-Style/FrozenStringLiteralComment:
-  Enabled: false
-Style/StringLiterals:
+Style/StringLiterals: 
   Enabled: false
 inherit_gem: 
+  ragnarson-stylecheck: 
+    - config/rubocop.yml
   rubocop-rails_config: 
     - config/rails.yml
