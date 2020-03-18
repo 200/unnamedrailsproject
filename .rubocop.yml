@@ -1,6 +1,8 @@
 --- 
 Metrics/LineLength:
   Enabled: false
+Lint/HandleExceptions:
+  Enabled: false
 inherit_gem: 
   ragnarson-stylecheck: 
     - config/rubocop.yml
