@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -53,6 +51,7 @@ group :development, :test do
   gem 'byebug', platforms: %i(mri mingw x64_mingw)
   gem 'rspec-rails', '~> 4.0.0.beta3'
   gem 'shoulda-matchers'
+  gem 'factory_bot_rails'
 end
 
 group :development do
