@@ -36,6 +36,10 @@ gem 'rubocop', '~> 0.64.0', require: false
 # CI
 gem 'travis'
 
+
+gem "sentry-raven"
+
+
 # Templates
 gem 'slim-rails'
 
