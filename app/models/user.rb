@@ -1,3 +1,6 @@
 class User < ApplicationRecord
-  validates_presence_of :email, uniqueness: { case_sensitive: false }, format: { with: Devise.email_regexp }
+  # Include default devise modules. Others available are:
+  # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
+  devise :database_authenticatable, :registerable,
+         :recoverable, :rememberable, :validatable
 end
